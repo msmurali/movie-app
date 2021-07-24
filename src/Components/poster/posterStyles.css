@@ -1,0 +1,24 @@
+.poster{
+    width: 150px;
+    height: 200px;
+    min-width: 150px;
+    min-height: 200px;
+    margin: 1em;
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000000af;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.poster:hover{
+    transform: translateY(-2px);
+}
+.poster:active{
+    box-shadow: none;
+}
+.active{
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}

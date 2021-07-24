@@ -1,0 +1,19 @@
+.btn{
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    background-color: #2b5cff;
+    padding: 1em 1.5em;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px 1px #2b2a2a2f;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #121b96;
+}
+.btn:active{
+    box-shadow: none;
+}

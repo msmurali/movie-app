@@ -1,0 +1,58 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em 2em;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    background-color: #111;
+    box-shadow: 0px 0px 10px #00000020;
+}
+.transparent{
+    background-color: transparent;
+    box-shadow: none;
+}
+.logo{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Pacifico,cursive;
+}
+.hamburger-menu{
+    margin-left: auto;
+    position: relative;
+    cursor: pointer;
+}
+.navList{
+    font-family: Montserrat;
+    font-weight: 500;
+    width: 8rem;
+    padding: 1em;
+    position: absolute;
+    right: 5%;
+    list-style: none;
+    transform-origin: top right;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(.48,.26,.55,1.67);
+    border-radius: 5px;
+    background-color: #222;
+    border: 1px  solid #111;
+}
+.navLink{
+    text-align: center;
+    padding: 1em;
+}
+.navList:first-child{
+    margin-bottom: 1rem;
+}
+.menu-open{
+    transform: scale(1);
+    opacity: 1;
+}
